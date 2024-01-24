@@ -1,0 +1,29 @@
+section.hero{
+    min-height: calc(100vh - 86px);
+    width: 100%;
+    background-color: #F7F5F9;
+    position: relative;
+}
+/* .hero-text h2{
+    font-style: italic;
+} */
+.hero-text{
+    width: 60%;
+}
+.hero img{
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    width: 50%;
+}
+
+@media (max-width: 450px) {
+    .hero-text{
+        width: 100%;
+    }
+    .hero img{
+        width: 100%;
+        left: 0;
+        padding: 0 20px;
+    }
+}

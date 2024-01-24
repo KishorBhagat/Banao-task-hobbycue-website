@@ -1,0 +1,9 @@
+section.add-page{
+    height: fit-content;
+    background-color: #F7FDFF;
+}
+.add-card{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid gray;
+}

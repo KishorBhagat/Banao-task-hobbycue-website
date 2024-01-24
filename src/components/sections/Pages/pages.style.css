@@ -1,0 +1,19 @@
+section.pages {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.page-card{
+    width: calc(50% - 20px);
+    padding: 20px;
+    border: 1px solid gray;
+}
+.card-btn{
+    border: 1px solid pink;
+}
+
+@media (max-width: 450px){
+    .page-card{
+        width: 100%;
+    }
+}

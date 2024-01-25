@@ -1,5 +1,11 @@
+body{
+    letter-spacing: 0.02em;
+}
 section{
     padding: 100px;
+}
+p{
+    font-weight: 300;
 }
 
 @media (max-width: 450px) {

@@ -1,0 +1,32 @@
+section.testimonials{
+    height: fit-content;
+}
+
+.testimonial-card{
+    padding: 20px;
+    background-color: #F7F5F9;
+}
+.testimonial-card p{
+    color: #6D747A;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.audio-track{
+    width: 60%;
+}
+
+.person img{
+    width: 100px;
+    height: 100px;
+}
+.person .name{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.person .profession{
+    font-size: 14px;
+    line-height: 21px;
+}

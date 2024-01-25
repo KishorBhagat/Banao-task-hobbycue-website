@@ -4,9 +4,6 @@ section.hero{
     background-color: #F7F5F9;
     position: relative;
 }
-/* .hero-text h2{
-    font-style: italic;
-} */
 .hero-text{
     width: 60%;
 }
@@ -15,6 +12,27 @@ section.hero{
     left: 100px;
     bottom: 0;
     width: 50%;
+}
+.hero .form {
+    flex: 1;
+    margin-left: 100px;
+    /* background-color: blue; */
+}
+.hero .form small{
+    color: #6D747A;
+}
+.hero .form small span{
+    color: #000;
+    font-weight: 500;
+}
+.hero .form .form-tabs li span{
+    color: #939CA3;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+.hero .form .form-tabs li span.active{
+    color: #8064A2;
 }
 
 @media (max-width: 450px) {
@@ -25,5 +43,10 @@ section.hero{
         width: 100%;
         left: 0;
         padding: 0 20px;
+    }
+    .hero .form{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 120px;
     }
 }

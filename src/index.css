@@ -13,8 +13,20 @@ p{
     background-color: #8064A2;
     color: #fff;
 }
+.btn:hover {
+    background-color: #8064A2;
+    color: #fff;
+}
+.btn-outline{
+    background-color: transparent;
+    color: #000;
+}
+.btn-outline:hover{
+    background-color: #8064A2;
+    color: #fff;
+}
 @media (max-width: 450px) {
     section{
-        padding: 20px;
+        padding: 50px 20px;
     }
 }

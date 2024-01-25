@@ -6,7 +6,7 @@ import Joinin from '../../forms/Joinin'
 function Hero() {
   const [signInTab, setSignInTab] = useState(true)
   return (
-    <section className='hero d-flex flex-column flex-sm-row'>
+    <section className='hero d-flex flex-column flex-md-row'>
       <div className="hero-text justify-content-end align-items-end">
         <div>
           <h2 className='font-italic'>Explore your <span style={{ color: "#0096C8" }}>hobby</span> or <span style={{ color: "#8064A2" }}>passion</span></h2>
@@ -16,7 +16,7 @@ function Hero() {
         </div>
       </div>
       <div className="form">
-        <ul className="nav nav-underline form-tabs mb-5">
+        <ul className="nav nav-underline form-tabs mb-5 justify-content-md-start justify-content-center">
           <li className="nav-item">
             <span className={`nav-link ${signInTab?"active":""}`} onClick={() => setSignInTab(true)}>Sign In</span>
           </li>

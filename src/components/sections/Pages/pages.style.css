@@ -21,8 +21,14 @@ section.pages {
     border: 1px solid pink;
 }
 
-@media (max-width: 450px){
+@media (max-width: 769px){
+    .page-card{
+        width: 100%;
+        /* text-align: center; */
+    }
+}
+/* @media (max-width: 450px){
     .page-card{
         width: 100%;
     }
-}
+} */

@@ -15,13 +15,9 @@
     width: 24px;
 }
 .sign-in-btn{
-    color: #8064A2;
     padding-left: 30px;
     padding-right: 30px;
     white-space: nowrap;
-}
-.sign-in-btn:hover{
-    color: #fff;
 }
 /* li svg{
     width: 50px;

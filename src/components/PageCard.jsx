@@ -4,7 +4,7 @@ function PageCard({title, desc, buttonText, theme, icon}) {
     const [isHovered, setIsHovered] = useState(false);
   return (
     <div 
-        className="page-card rounded d-flex flex-column justify-content-start align-items-start"
+        className="page-card rounded d-flex flex-column justify-content-start align-items-center align-items-md-start"
         style={{
             border: `1px solid ${theme}`,
             backgroundColor: `${isHovered?theme:'white'}`,

@@ -35,7 +35,7 @@ section.hero{
     color: #8064A2;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 769px) {
     .hero-text{
         width: 100%;
     }
@@ -47,6 +47,11 @@ section.hero{
     .hero .form{
         width: 100%;
         margin: 0;
+        margin-bottom: 180px;
+    }
+}
+@media (max-width: 450px) {
+    .hero .form{
         margin-bottom: 120px;
     }
 }

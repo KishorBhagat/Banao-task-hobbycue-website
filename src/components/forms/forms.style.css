@@ -1,5 +1,10 @@
 .auth-btns-group button{
     font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .divider{
     position: relative;
@@ -14,6 +19,7 @@
     top: calc(-50% - 2px);
     left: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
 @media (max-width: 450px) {

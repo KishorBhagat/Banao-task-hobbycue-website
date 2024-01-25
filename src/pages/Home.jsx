@@ -1,4 +1,4 @@
-import Footer from "../components/footer/footer"
+import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import AddPage from "../components/sections/AddPage/AddPage"
 import End from "../components/sections/End/End"

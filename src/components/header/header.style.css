@@ -1,4 +1,48 @@
-nav{
-    height: 86px;
-    /* padding: 0 100px; */
+.navbar{
+    min-height: 86px;
+    padding: 0 100px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    height: 24px;
+    width: 24px;
+}
+.sign-in-btn{
+    color: #8064A2;
+    padding-left: 30px;
+    padding-right: 30px;
+    white-space: nowrap;
+}
+.sign-in-btn:hover{
+    color: #fff;
+}
+/* li svg{
+    width: 50px;
+    height: 50px;
+} */
+@media (max-width: 1200px) {
+    .navbar-brand img{
+        width: 200px;
+    }    
+}
+@media (max-width: 769px) {
+    .navbar{
+        padding: 5px 50px;
+    }
+}
+@media (max-width: 450px) {
+    .navbar{
+        min-height: fit-content;
+        padding: 5px 20px;
+    }
+    .navbar-brand img{
+        width: 150px;
+    }    
 }

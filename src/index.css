@@ -25,6 +25,11 @@ p{
     background-color: #8064A2;
     color: #fff;
 }
+@media (max-width: 769px) {
+    section{
+        padding: 50px 50px;
+    }
+}
 @media (max-width: 450px) {
     section{
         padding: 50px 20px;

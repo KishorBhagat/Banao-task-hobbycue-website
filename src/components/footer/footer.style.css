@@ -16,6 +16,11 @@
     color: black;
 }
 
+@media (max-width: 769px) {
+    .footer{
+        padding: 50px 50px;
+    }
+}
 @media (max-width: 450px) {
     .footer{
         padding: 50px 20px;

@@ -44,7 +44,7 @@ function Footer() {
                 </div>
                 <div className="link-category">
                     <h6 className='pb-2'>Social Media</h6>
-                    <ul className='p-0 d-flex gap-4'>
+                    <ul className='p-0 d-flex justify-content-between'>
                         <a href="#"><IconFacebook /></a>
                         <a href="#"><IconTwitter /></a>
                         <a href="#"><IconInstagram /></a>

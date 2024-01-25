@@ -24,11 +24,11 @@ function Signin() {
           <i className={`bi bi-eye${show?"-slash":""} position-absolute end-0 m-3`} id="togglePassword" onClick={() => setShow(!show)}></i>
         </div>
         <div className="mb-3 d-flex justify-content-between">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-            <label class="form-check-label" for="exampleCheck1"><small>Remember me</small></label>
+          <div className="form-check">
+            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+            <label className="form-check-label" htmlFor="exampleCheck1"><small>Remember me</small></label>
           </div>
-          <a href='#' style={{textDecoration: "none", color: "black"}}><small><i class="bi bi-lock-fill"></i> Forgot password?</small></a>
+          <a href='#' style={{textDecoration: "none", color: "black"}}><small><i className="bi bi-lock-fill"></i> Forgot password?</small></a>
         </div>
         <button type="submit" className="btn btn-primary w-100">Continue</button>
       </form>

@@ -16,7 +16,7 @@ function Header() {
                     <div className="form-group form-group-md d-none d-lg-block w-100">
                         <div className="input-group">
                             <input type="text" className="form-control" placeholder="Search here..." aria-label="Recipient's username" aria-describedby="button-addon2" />
-                            <button className="btn" type="button" id="invite"><i class="bi bi-search"></i></button>
+                            <button className="btn" type="button" id="invite"><i className="bi bi-search"></i></button>
                         </div>
                     </div>
                     <div className='d-flex align-items-center'>

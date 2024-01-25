@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './forms.style.css'
+import IconGoogleColor from '../icons/IconGoogleColor';
+import IconFacebookColor from '../icons/IconFacebookColor';
 
 function Joinin() {
   const [show, setShow] = useState(false);
@@ -7,8 +9,8 @@ function Joinin() {
   return (
     <>
       <div className="auth-btns-group d-grid gap-3 mb-3">
-        <button className="btn btn-outline" type="button">Continue with Google</button>
-        <button className="btn btn-outline" type="button">Continue with Facebook</button>
+        <button className="btn btn-outline" type="button"><IconGoogleColor /> Continue with Google</button>
+        <button className="btn btn-outline" type="button"><IconFacebookColor /> Continue with Facebook</button>
       </div>
       <div className='divider'>
         <hr className='border-2'/><span>Or connect with</span>

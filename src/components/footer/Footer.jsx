@@ -55,9 +55,9 @@ function Footer() {
                         <a href="#"><IconMessage /></a>
                     </ul>
                     <h6 className='pb-2 mt-4'>Invite Friends</h6>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                        <button class="btn" type="button" id="invite">Invite</button>
+                    <div className="input-group mb-3">
+                        <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <button className="btn" type="button" id="invite">Invite</button>
                     </div>
                 </div>
             </footer>

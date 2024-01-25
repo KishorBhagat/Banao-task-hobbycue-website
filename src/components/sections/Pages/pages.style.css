@@ -7,6 +7,15 @@ section.pages {
     width: calc(50% - 20px);
     padding: 20px;
     border: 1px solid gray;
+    cursor: pointer;
+    transition: .3s;
+}
+.page-card p{
+    font-size: 18px;
+}
+.page-card svg{
+    height: 30px;
+    width: 30px;
 }
 .card-btn{
     border: 1px solid pink;

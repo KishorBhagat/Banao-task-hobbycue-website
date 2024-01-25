@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function PageCard({title, desc, buttonText, theme}) {
+function PageCard({title, desc, buttonText, theme, icon}) {
     const [isHovered, setIsHovered] = useState(false);
   return (
     <div 
@@ -13,7 +13,7 @@ function PageCard({title, desc, buttonText, theme}) {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
     >
-        <h4>{title}</h4>
+        <h4 className="d-flex align-items-center gap-3 f">{icon}<span>{title}</span></h4>
         <p className="desc">{desc}</p>
         <button type="button" className="btn btn-outline-primary">{buttonText}</button>
     </div>

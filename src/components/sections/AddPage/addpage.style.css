@@ -7,3 +7,6 @@ section.add-page{
     padding: 20px;
     border: 1px solid gray;
 }
+.add-card p{
+    font-size: 18px;
+}

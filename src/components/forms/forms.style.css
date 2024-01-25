@@ -8,7 +8,7 @@
 }
 .divider{
     position: relative;
-    margin: 40px 0;
+    /* margin: 40px 0; */
 }
 .divider span{
     background-color: #F7F5F9;
@@ -16,9 +16,9 @@
     padding: 0 10px;
     z-index: 1;
     position: absolute;
-    top: calc(-50% - 2px);
+    transform: translate(-50%, 0);
+    top: calc(50% - 14px);
     left: 50%;
-    transform: translate(-50%, -50%);
     white-space: nowrap;
 }
 

@@ -56,7 +56,7 @@ function Footer() {
                     </ul>
                     <h6 className='pb-2 mt-4'>Invite Friends</h6>
                     <div className="input-group mb-3">
-                        <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <input type="text" className="form-control" placeholder="Email ID" aria-label="Email ID" aria-describedby="button-addon2" />
                         <button className="btn" type="button" id="invite">Invite</button>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Footer from "../components/footer/footer"
 import Header from "../components/header/Header"
 import AddPage from "../components/sections/AddPage/AddPage"
 import End from "../components/sections/End/End"
@@ -14,6 +15,7 @@ function Home() {
         <AddPage />
         <Testimonials />
         <End />
+        <Footer />
     </>
   )
 }

@@ -7,7 +7,12 @@ section{
 p{
     font-weight: 300;
 }
-
+.btn {
+    outline-color: #8064A2;
+    border-color: #8064A2;
+    background-color: #8064A2;
+    color: #fff;
+}
 @media (max-width: 450px) {
     section{
         padding: 20px;

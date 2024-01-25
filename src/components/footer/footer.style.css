@@ -1,0 +1,23 @@
+.footer{
+    padding: 50px 100px;
+}
+.link-category h6{
+    font-weight: 700;
+}
+.link-category h6, li{
+    font-size: 14px;
+}
+    
+.footer .link-category ul a{
+    text-decoration: none;
+}
+.footer .link-category ul a li{
+    list-style: none;
+    color: black;
+}
+
+@media (max-width: 450px) {
+    .footer{
+        padding: 50px 20px;
+    }
+}

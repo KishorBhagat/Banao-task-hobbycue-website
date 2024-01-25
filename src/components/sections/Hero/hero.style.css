@@ -35,6 +35,18 @@ section.hero{
     color: #8064A2;
 }
 
+@media (max-width: 1000px) {
+    .hero-text{
+        width: 50%;
+    }
+    .hero img{
+        width: 40%;
+    }
+    /* .hero .form{
+        width: 100%;
+        margin-left: 50px;
+    } */
+}
 @media (max-width: 769px) {
     .hero-text{
         width: 100%;

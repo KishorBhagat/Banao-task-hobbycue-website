@@ -32,7 +32,7 @@ function Header() {
                     </div>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end gap-2">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-center gap-2">
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle d-flex align-items-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <span className='d-flex align-items-center gap-1'><IconExplore />Explore</span>
@@ -61,13 +61,13 @@ function Header() {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#"><IconBookmark /></a>
+                                <a className="nav-link" aria-current="page" href="#"><IconBookmark /> <span className='d-inline d-md-none'>Hobbies</span></a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item d-none d-md-block">
                                 <a className="nav-link" aria-current="page" href="#"><IconBell /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#"><IconCart /></a>
+                                <a className="nav-link" aria-current="page" href="#"><IconCart /> <span className='d-inline d-md-none'>Cart</span></a>
                             </li>
                             <li className="nav-item">
                                 <button className="btn btn-outline sign-in-btn">Sign In</button>

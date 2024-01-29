@@ -26,6 +26,12 @@ section.pages {
         width: 100%;
         /* text-align: center; */
     }
+    .page-card button{
+        width: 100%;
+    }
+    .desc {
+        text-align: center;
+    }
 }
 /* @media (max-width: 450px){
     .page-card{

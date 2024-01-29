@@ -63,6 +63,9 @@ audio{
         width: 80px;
         height: 80px;
     }  
+    .testimonial-card p{
+        text-align: center;
+    }
 }
 @media (max-width: 450px) {
     .person img{
